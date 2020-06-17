@@ -1,0 +1,73 @@
+body{
+  font-family: 'Slabo 27px', serif;
+}
+
+.desc{
+	text-align: justify;
+}
+.home{
+  text-align: center;
+}
+
+.caixa{
+ position: center;
+}
+.text{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+h1{
+  padding-bottom: 15px;
+}
+.cor-nav{
+  background-color: white;
+}
+header{
+  margin-top: 50px;
+}
+.cor-painel{
+  color: black;
+}
+.h1{
+  margin-top: 80px;
+  text-align: center;
+}
+.oq{
+  text-align: center;
+  margin-top: 80px;
+}
+
+
+
+[data-anime]{
+  opacity: 0;
+  transition: .3s;
+}
+[data-anime="left"]{
+  transform: translate3d(-50px, 0, 0);
+}
+[data-anime="top"]{
+  transform: translate3d(0, -50px, 0);
+}
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.botao{
+  margin-bottom: 10px;
+}
+.cadastro{
+  margin-top: 100px;
+  
+}
+.comp{
+  text-align: center;
+}
+
+
+
+
+
+
