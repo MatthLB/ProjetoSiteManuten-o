@@ -64,10 +64,43 @@ header{
 }
 .comp{
   text-align: center;
+  padding-top: 20px;
+}
+
+.pecas{
+  margin-top: 50px; 
+  align-items: center;
+  
+  
+}
+
+.cor{
+  background-color: #DCDCDC;
+}
+
+
+.add {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
 
 
 
+#particles{ 
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+  background-image: url(/img/intro-bg.png);
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: 100%; 
+}
+  
 
+
+     
