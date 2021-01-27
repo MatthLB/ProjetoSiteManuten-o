@@ -8,6 +8,8 @@
         <link rel="shortcut icon" href="img/icon.png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
        <link rel="stylesheet" type="text/css" href="css/style.css">
+       <link rel="stylesheet" type="text/css" href="css/stylecadastro.css">
+       <link rel="stylesheet" type="text/css" href="css/styles.css">
        <link rel="javascript" href="pro.js">
     </head>
     <body>
@@ -32,10 +34,76 @@
 
 
 
-        <div class="cadastro container">
+
+  <section class="espaco">
+
+    <h1 class="text-center">Página de registro</h1>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 mb-4">
+          <div class="portfolio-item">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                  <div class="portfolio-hover">
+                      <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                  </div>
+                  <img class="img-fluid" src="img/cdt.png" alt="" width="300px"/>
+                 </a>
+              <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Registro de Alunos</div>
+                  <div class="portfolio-caption-subheading text-muted">Click na imagem e preencha as informações</div>
+              </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-sm-6 mb-4 text-center">
+        <div class="portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="img/cdt.png" alt="" width="300px" />
+            </a>
+            <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Registro de Visitantes</div>
+                <div class="portfolio-caption-subheading text-muted">Click na imagem e preencha as informações</div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="cadastro container">
             <form>
+              <h1 class="text-center">Realise seu registro</h1>
+                <div>
+                  <h4>Você faz parte de qual categoria?</h4>
+                  <input type="radio" value="1" name="cadas">aluno<br/>
+                  <input type="radio" value="2" name="cadas">visitante<br/>
+                  <input type="radio" value="3" name="cadas">gerente
+                </div>
+
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Seu Nome:</label>
+                  <h4>Preencha abaixo:</h4>
+                  <img src="https://img.icons8.com/pastel-glyph/64/000000/person-male--v2.png" height="30px;"/><label for="exampleInputEmail1">Seu Nome:</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu Nome">
                   <small id="emailHelp" class="form-text text-muted">espaço para texto</small>
                 </div>
@@ -43,18 +111,101 @@
                   <label for="exampleInputPassword1">Matricula</label>
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Matricula">
                 </div>
-                <!-- <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
-                </div> -->
+                
                 <button type="submit" class="btn btn-primary">Enviar</button>
               </form>
-        </div>
+        </div> -->
 
 
 
 
 
+
+
+
+
+
+
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal"><img src="img/x.png" alt="Close modal" /></div>
+                  <div class="container">
+                      <div class=" justify-content-center">
+                          <div class="">
+                              <div class="modal-body row">
+                                  <!-- Project Details Go Here-->  
+                                  <div class="col-sm-12">
+                                    <form method="" action=""> 
+                                        <div class="form-group">
+                                            <h4>Preencha abaixo:</h4>
+                                            <br>
+                                            <label>Seu Nome:</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu Nome">
+                                          </div>
+                                          <div class="form-group">
+                                            <label>Sua Matricula</label>
+                                            <input type="text" class="form-control" id="exampleInputmatricula1" placeholder="Matricula">
+                                          </div>
+    
+                                          <div class="form-group">
+                                            <label>Data de entrada</label>
+                                            <input type="date" class="form-control" id="exampleInputdata1" placeholder="Data">
+                                          </div>
+    
+                                          <button type="button" class="btn btn-primary">Enviar</button>
+                                         
+                                     </form>
+                              </div>
+
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Modal 2-->
+      <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal"><img src="img/x.png" alt="Close modal" /></div>
+                  <div class="container">
+                      <div class=" justify-content-center">
+                          <div class="">
+                              <div class="modal-body row">
+                                  <!-- Project Details Go Here-->    
+                                 <div class="col-sm-12">
+                                  <h2 class="text-uppercase">Faça seu registro</h2>
+                                 <form method="" action=""> 
+                                    <div class="form-group">
+                                        <h4>Preencha abaixo:</h4>
+                                        <br>
+                                        <label>Seu Nome:</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu Nome">
+                                      </div>
+                                      <div class="form-group">
+                                        <label>Sua Matricula</label>
+                                        <input type="text" class="form-control" id="exampleInputmatricula1" placeholder="Matricula">
+                                      </div>
+
+                                      <div class="form-group">
+                                        <label>Data de entrada</label>
+                                        <input type="date" class="form-control" id="exampleInputdata1" placeholder="Data">
+                                      </div>
+
+                                      <button type="button" class="btn btn-primary">Enviar</button>
+                                     
+                                 </form>
+                              </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
 
 
 
